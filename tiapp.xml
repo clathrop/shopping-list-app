@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">rmwKzv7ALvxc7ZPhK3F4alHaiX6PiYXd</property>
+    <property name="acs-oauth-key-production" type="string">iybiKrftXnGuBuJ5H5ezRXDzN8SU3NTT</property>
+    <property name="acs-api-key-production" type="string">30qDj3of6ek4rxBASwmdsONALyp5ny2N</property>
+    <property name="acs-oauth-secret-development" type="string">OL3qW9JFf1vWeBs6qC2iFLSeB6pVqvyz</property>
+    <property name="acs-oauth-key-development" type="string">abugAuwjCSi2WLifWBYG55zvZfhJ3V16</property>
+    <property name="acs-api-key-development" type="string">JTn9lQBwTXUCLn3j42TJHXfPQhMAKRuk</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.0.2.GA</sdk-version>
+    <id>com.appcelerator.shoppinglist</id>
+    <name>Shopping List</name>
+    <version>1.0</version>
+    <publisher>clathrop</publisher>
+    <url>http://appcelerator.com</url>
+    <description>not specified</description>
+    <copyright>2012 by clathrop</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>a7575501-e212-4f8a-8959-93ab4ca8385a</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.0.1">ti.cloud</module>
+    </modules>
+</ti:app>
